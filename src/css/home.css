@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: calc(100/750*100vw)
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    font-size: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 1rem;
+    background: #eee;
+    line-height: 1rem;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    overflow: auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    width: 100%;
+    height: 1rem;
+    background: #eee;
+    line-height: 1rem;
+}
+.footer .router-link-active{
+    color: #f00;
+}
+li{
+    list-style: none;
+}
+.list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 30%;
+    text-align: center;
+}
+.left li{
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: 1px solid #eee;
+}
+.right{
+    width: 70%;
+    height: 9rem;
+}
+.keylist{
+    width: 180px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.top{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 1rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.bottom{
+    width: 100%;
+    margin-top: 1rem;
+}
+img{
+    width: 150px;
+}
